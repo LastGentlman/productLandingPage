@@ -1,26 +1,31 @@
 body {
-    background-color: aqua;
+    background-color:cornflowerblue;
+    display: -ms-inline-flexbox;
+}
+
+#main {
+    margin-top: 50px;
 }
 
 
-#navbar {
-
+#nav-bar {
     position: fixed;
-  
-    
   }
-@media (max-width: 80em) {
+
+@media (max-width: 100px) {
     
-    html {
+    #header {
       font-size: 100%;
     }
   }
 
-  #header {
-      display: flex;
-  }
+
 
   #home {
       text-align: center;
+      height: 50vh;
+  }
+
+  #contact {
       height: 50vh;
   }

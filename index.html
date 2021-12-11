@@ -8,74 +8,75 @@
 
   </head>
 
+     
+  <header id="header" class="container">
+             
+    <nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
+      <img
+      id="header-img"
+      src="/img/depositphotos_78666192-stock-illustration-a-logo-sample-logo-for.jpg"
+      height="100px"
+      width="100px"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Product Landing Page</a>
+        </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+           </ul>
+      </div>
+    </nav>
+</header>
+
+
+
   <body>
        
       
        <div id="main" class="container">
              <div class="jumbtron">
 
-            
-           <header id="header">
-            <img
-               id="header-img"
-              src="/img/depositphotos_78666192-stock-illustration-a-logo-sample-logo-for.jpg"
-              height="100px"
-              width="100px"
-             >
+           
 
+       </div>
+       <div class="flex-container">
+        <div id="home">
+          <h1>Welocme to our product</h1>
+     </div>
      
-
-            <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
-   
-              <button class="navbar-toggler" type="button" >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+     <div id="about">
+           <h2>This our about us page</h2>
             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacts</a>
-                  </li>
-                  
-                </ul>
-               
-              </div>
-            </nav>
-          
-       
-           </header>
+           <p>
+             We are the number one in the market
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi adipisci vitae tempora! Dolorum voluptatibus explicabo adipisci impedit, vel quia aliquam! Iure, veritatis quidem inventore officiis voluptatibus ex voluptas minima nam. 
+            </p>
+     </div>
+     <div id="contact">
+           <h2>You can find us: </h2>
+           <p>Our email is: xyz@gmail.com</p>
+           <p>our phone is: 09556465135136</p>
+     </div>
+
+     <div id="features" class="embed-responsive embed-responsive-16by9">
+       <h2>This what our product look like: </h2>
+      <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+     </div>
+     
+     <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
+       <input id='email' type="email" placeholder="Enter a valid email address">
+       <input id="submit" type="submit" >
+      </form>
+      </div>
+
 
        </div>
-       
-       <div id="home">
-        <h1>Welocme to our product</h1>
-       </div>
-       
-       <div id="about">
-             <p>We are the number one in the market</p>
-       </div>
-       <div id="contact">
-             <p>Our email is: xyz@gmail.com</p>
-             <p>our phone is: 09556465135136</p>
-       </div>
-
-       <div id="features" class="embed-responsive embed-responsive-16by9">
-        <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-       </div>
-       
-       <form id="form">
-         <input id='email' type="email" placeholder="Enter a valid email address">
-         <input id="submit" type="submit" onclick="submit()">
-        </form>
-        </div>
-
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
 </html>
