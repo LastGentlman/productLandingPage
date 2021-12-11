@@ -26,3 +26,9 @@ INSTRUCTIONS:
 
 // Once you have read the above messages, you can delete all comments. 
 "use strict";
+
+const submit = () => {
+  if (document.querySelector('#email') == true) {
+    window.location.href = 'https://www.freecodecamp.org/email-submit';
+  }
+}
