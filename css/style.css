@@ -10,7 +10,14 @@ body {
 
 #nav-bar {
     position: fixed;
+    justify-content: space-around;
+    background: lightcyan;
+    width: 100%;
+    height: auto;
   }
+ul li {
+  display: inline-flex;
+}
 
 @media (max-width: 100px) {
     
